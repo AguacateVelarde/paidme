@@ -1,0 +1,12 @@
+#! /usr/bin/env node
+"use strict";
+
+require("../")({
+  port: 8000,
+  host: "localhost",
+  openPayCredentials: {
+    merchantId: "*",
+    privateKey: "*",
+    isProduction: false,
+  },
+});
