@@ -26,8 +26,10 @@ require("../")({
 });
 ```
 
-2. I recommend use docker-compose, for this only you need use the next command `docker-compose run --build`
+2. Install dependencies in twice projects with `npm ci`
 
-3. If you want running the project "manually", you could use `npm run start`in backend folder and the same command in frontend folder. By default backend project use 8000 port and frontend use 3000.
+3. I recommend use docker-compose, for this only you need use the next command `docker-compose run --build`
+
+4. If you want running the project "manually", you could use `npm run start`in backend folder and the same command in frontend folder. By default backend project use 8000 port and frontend use 3000.
 
 This project was built with ❤️
